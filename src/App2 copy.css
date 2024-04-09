@@ -1,0 +1,469 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+  background: #EFF5FF;
+}
+
+.escritorio{
+  padding-top: 5%;
+  padding-bottom: 4%;
+  /* position: relative;
+  top: 50%;
+  bottom: 50%; */
+}
+
+.hijo {
+  width: 50px;
+  height: 50px;
+  /* centrar vertical y horizontalmente */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+}
+
+.box {
+  height: 600px;
+  width: 940px;
+  background-color: #ffffff;
+}
+
+.box .group {
+  height: 600px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 940px;
+}
+
+.box .overlap {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 25px 40px -20px #00000018;
+  height: 602px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 942px;
+}
+
+.box .group-wrapper {
+  height: 568px;
+  left: 17px;
+  position: relative;
+  top: 17px;
+  width: 274px;
+  background-color: #483eff;
+}
+
+.box .group-wrapper3 {
+  /* background-image: url(./oval.svg); */
+  background-size: 100% 100%;
+  height: 568px;
+  left: 17px;
+  position: absolute;
+  top: 17px;
+  width: 274px;
+}
+
+
+.box .group-wrapper2 {
+	height: 500px;
+	left: 366px;
+	position: relative;
+	top: -530px;
+	width: 445px;
+	background-color: #ffffff;
+	text-align: justify;
+}
+
+.box .div-wrapper {
+  /* background-image: url(./oval.svg); */
+  background-size: 100% 100%;
+  height: 568px;
+}
+
+.box .div {
+  height: 228px;
+  left: 32px;
+  position: relative;
+  top: 40px;
+  width: 153px;
+}
+
+.box .group-2 {
+  height: 33px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 135px;
+}
+
+
+
+.box .group-3 {
+  height: 33px;
+  left: 49px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 86px;
+}
+
+.box .text-wrapper {
+  color: var(--white);
+  font-family: "Ubuntu-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 1px;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-2 {
+  color: var(--light-blue);
+  font-family: var(--body-s-font-family);
+  font-size: var(--body-s-font-size);
+  font-style: var(--body-s-font-style);
+  font-weight: var(--body-s-font-weight);
+  left: 0;
+  letter-spacing: var(--body-s-letter-spacing);
+  line-height: var(--body-s-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.box .overlap-group {
+  background-color: #bee2fd;
+  border-radius: 17.5px;
+  height: 35px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 35px;
+}
+
+.box .text-wrapper-3 {
+  color: var(--denim);
+  font-family: "Ubuntu-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  height: 23px;
+  left: 10px;
+  letter-spacing: 1px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 16px;
+}
+
+.box .group-copy {
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 65px;
+  width: 153px;
+}
+
+.box .group-4 {
+  height: 33px;
+  left: 49px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 104px;
+}
+
+.box .overlap-2 {
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 16.5px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 33px;
+}
+
+.box .text-wrapper-4 {
+  color: var(--white);
+  font-family: "Ubuntu-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  height: 23px;
+  left: 8px;
+  letter-spacing: 1px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 16px;
+}
+
+.box .group-copy-2 {
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 130px;
+  width: 122px;
+}
+
+.box .group-5 {
+  height: 33px;
+  left: 49px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.box .group-copy-3 {
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 195px;
+  width: 128px;
+}
+
+.box .group-6 {
+  height: 33px;
+  left: 49px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
+
+.box .group-7 {
+  height: 372px;
+  left: 391px;
+  position: relative;
+  top: 57px;
+  width: 450px;
+}
+
+.box .group-8 {
+  height: 68px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 450px;
+}
+
+.box .text-wrapper-5 {
+  color: var(--denim);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size);
+  font-style: var(--heading-font-style);
+  font-weight: var(--heading-font-weight);
+  left: 0;
+  letter-spacing: var(--heading-letter-spacing);
+  line-height: var(--heading-line-height);
+  position: absolute;
+  top: 0;
+  width: 450px;
+}
+
+.box .please-provide-your {
+  color: var(--grey);
+  font-family: var(--body-l-font-family);
+  font-size: var(--body-l-font-size);
+  font-style: var(--body-l-font-style);
+  font-weight: var(--body-l-font-weight);
+  left: 0;
+  letter-spacing: var(--body-l-letter-spacing);
+  line-height: var(--body-l-line-height);
+  position: absolute;
+  top: 48px;
+  width: 450px;
+}
+
+.box .group-9 {
+  height: 264px;
+  left: 0;
+  position: absolute;
+  top: 108px;
+  width: 450px;
+}
+
+.box .group-10 {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 450px;
+}
+
+.box .group-11 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d6d8e5;
+  border-radius: 8px;
+  height: 48px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 24px;
+  width: 450px;
+}
+
+.box .text-wrapper-6 {
+	color: var(--grey);
+	font-family: "Ubuntu-Medium", Helvetica;
+	font-size: 16px;
+	font-weight: 500;
+	/* left: 15px; */
+	letter-spacing: 0;
+	line-height: 25px;
+	position: relative;
+	top: 11px;
+	white-space: nowrap;
+	width: -moz-available;
+}
+
+.box .text-wrapper-7 {
+  color: var(--denim);
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  font-style: var(--body-m-font-style);
+  font-weight: var(--body-m-font-weight);
+  left: 0;
+  letter-spacing: var(--body-m-letter-spacing);
+  line-height: var(--body-m-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.box .group-copy-4 {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 96px;
+  width: 450px;
+}
+
+.box .group-copy-5 {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 192px;
+  width: 450px;
+}
+
+.box .group-copy-6 {
+  height: 48px;
+  left: 718px;
+  position: absolute;
+  top: -79px;
+  width: 123px;
+}
+
+.box .overlap-group-wrapper {
+  height: 48px;
+  overflow: hidden;
+}
+
+
+.box .overlap-group-2 {
+	background-color: #022959;
+	border-radius: 8px;
+	height: 50px;
+	left: 320px;
+	position: relative;
+	top: 55px;
+	width: 125px;
+}
+
+.box .text-wrapper-8 {
+  color: white;
+  font-family: "Ubuntu-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+}
+
+.oval {
+  height: 568px;
+  position: relative;
+  width: 274px;
+}
+
+.oval .overlap-group {
+  background-color: #483eff;
+  border-radius: 10px;
+  height: 570px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 276px;
+}
+
+.oval .group {
+  height: 268px;
+  left: 1px;
+  position: absolute;
+  top: 301px;
+  width: 274px;
+}
+
+.oval .mask {
+  height: 568px;
+  left: 2792px;
+  position: absolute;
+  top: 284px;
+  width: 274px;
+}
